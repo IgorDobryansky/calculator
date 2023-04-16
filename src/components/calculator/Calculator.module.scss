@@ -1,0 +1,18 @@
+.Calculator {
+  width: min-content;
+  .SecondaryButtons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .PrimaryButtons {
+    display: flex;
+    .NumberButtons {
+      display: flex;
+      flex-direction: column;
+      .Numbers {
+        display: flex;
+      }
+    }
+  }
+}
